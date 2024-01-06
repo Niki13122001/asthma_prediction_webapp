@@ -35,7 +35,7 @@ def main():
    
     #getting the input from user
     Age=st.text_input('Enter the age')
-    Sex=st.text_input('Sex(Female=0,Male=1)')
+    Sex=st.text_input('Sex(Female=0,Male=1,2=Unkown)')
     Sleepingprob=st.text_input('Sleeping Problem (Yes=1, 0=No)')
     Chesttightness=st.text_input('Chest Tightness (Yes=1, 0=No)')
     Breath=st.text_input('Breathing Problem (Yes=1, 0=No)')
