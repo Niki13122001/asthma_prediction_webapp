@@ -10,7 +10,7 @@ import numpy as np
 import pickle 
 import streamlit as st
 
-loaded_model=pickle.load(open("C:/Users/nikitha/Downloads/asthma_pred_ml/asthma_model.sav",'rb'))
+loaded_model=pickle.load(open("asthma_model.sav",'rb'))
 
 #creating a function for prediction
 def asthma_prediction(input_data):
